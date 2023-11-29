@@ -1,0 +1,83 @@
+.backgroundcolor{
+    -fx-background-color: linear-gradient(#005897, #206bff);
+}
+.buttonColour {
+    -fx-background-color: linear-gradient(to right bottom, #0949a5, #43a2fd);
+}
+.topPaneBackgroundcolor{
+    -fx-background-color: linear-gradient(to right bottom , #024c7e, #25374b);
+
+}
+.specialTextColour{
+    -fx-text-fill: linear-gradient(to right bottom , #38acff, #c606ff);
+    -fx-stroke: #000000;
+    -fx-stroke-width: 5px;
+
+}
+.borderRadious{
+    -fx-border-radius: 5px ;
+}
+.transparency{
+    -fx-background-color: transparent;
+}
+.borderColour{
+    -fx-border-color: linear-gradient(to right bottom , #17A9FF, #c606ff);
+}
+.title-text {
+    -fx-font : 94px "Brush Script MT";
+    -fx-padding : 10;
+    -fx-background-color : #4b7bec;
+}
+
+.circle{
+    -fx-background-color: linear-gradient(to right bottom, #0949a5, #43a2fd);
+    -fx-background-radius: 10px;
+}
+
+.circle2{
+    -fx-background-color: #D9D9D9;
+    -fx-background-radius: 20px;
+}
+
+.circle3{
+    -fx-background-color: #D9D9D9;
+    -fx-background-radius: 50px;
+}
+
+.borderCurve{
+    -fx-border-radius: 20;
+}
+
+.box {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 10px;
+}
+.payload {
+    -fx-hgap: 20px;
+    -fx-padding: 40px;
+
+    -fx-background-color: #D9D9D9;
+    -fx-background-radius: 50px;
+
+    -fx-border-radius: 50px;
+    -fx-border-width: 5px;
+    -fx-border-color: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+.textField {
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 20;
+    -fx-border-color: linear-gradient(to right bottom, #17A9FF, #c606ff);
+    -fx-background-color: transparent;
+}
+
+.my-btn-class:hover {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: linear-gradient(to right bottom, #0949a5, #43a2fd);
+    -fx-border-radius: 20;
+    -fx-border-color: linear-gradient(to right bottom, #17A9FF, #c606ff);
+    -fx-background-radius: 20;
+}
+.whiteBackground {
+    -fx-background-color: #ffffff;
+}
